@@ -1,3 +1,8 @@
+from CartePizzeria import CartePizzeria
+from CartePizzeriaException import CartePizzeriaException
+from Pizza import Pizza
+
+
 if __name__ == "__main__":
     # Création de quelques pizzas
     pizza1 = Pizza("Margherita", ["Tomato sauce", "Mozzarella", "Basil"], 8.99)
